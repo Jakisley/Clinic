@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Sans-Caption-Regular';
+    src: url('../public/PTSansCaption/PTSansCaption-Regular.ttf')
+        format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Sans-Caption-Bold';
+    src: url('../public/PTSansCaption/PTSansCaption-Bold.ttf')
+        format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root {
+    --Primary: rgba(54, 72, 68, 1);
+    --White: rgb(255, 255, 255);
+    --White-Darkened: rgba(248, 251, 250, 1);
+    --Green: rgba(13, 188, 145, 1);
+    --Gray: rgba(134, 134, 134, 1);
+    --Green-Dark: rgba(8, 102, 79, 1);
+    --Green-Light: rgba(0, 210, 159, 1);
+    --Green-Posion: rgba(69, 146, 127, 0.9);
+    --Aqua: rgba(226, 240, 239, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sans-Caption-Regular';
+}
+
+body {
+    background: var(--White);
+}
+
+a {
+    text-decoration: none;
+}
+ 
+.App{
+    margin: auto;
+    max-width: 1920px;
+    width: 100%;
+}

@@ -1,0 +1,31 @@
+.btn {
+    width: 196px;
+    height: 43px;
+    padding: 11px 8px 11px 8px;
+    font-size: 14px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnGreen{
+    background-color: var(--Green);
+    color: var(--White);
+    border: none;
+}
+
+.btnGreen:hover {
+    background-color: var(--Green-Light);
+}
+
+.btnWhite{
+    background-color: var(--White);
+    color: var(--Green);
+    border: 1px solid var(--Green);
+}
+
+.btnWhite:hover{
+    background-color: var(--Green);
+    color: var(--White);
+    border: none;
+}

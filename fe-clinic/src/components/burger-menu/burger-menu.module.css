@@ -1,0 +1,40 @@
+ .wrap{
+    background-color: rgba(69, 146, 127, 0.9);
+    position: fixed;
+    padding: 48px 19px;
+    top: 69px;
+    left: 0;
+    max-height: 602px;
+    height: 100%;
+    max-width: 676px;
+    min-width: 375px;
+    width: 100%;
+ }
+ .menuWrap{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 19px;
+    gap: 39px;
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .element{
+            font-size: 24px;
+            color: var(--White);
+            text-decoration: none;
+        }
+
+        .element:hover{
+             color: rgb(202, 199, 199);
+        }
+    }
+}
+
+@media screen and (min-width: 677px){
+    .wrap{
+        display: none;
+    }
+}
